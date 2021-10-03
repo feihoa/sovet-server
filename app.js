@@ -13,7 +13,7 @@ const limiter = rateLimit({
 });
 
 const corsOptions = {
-  origin: ['http://localhost:8080', 'http://localhost:8080/', 'https://feihoa.github.io', 'https://feihoa.github.io/'],
+  origin: ['http://localhost:8080', 'http://localhost:8080/', 'https://feihoa.github.io', 'https://feihoa.github.io/', 'https://api.sovet-consult.tk/', 'https://api.sovet-consult.tk/', 'http://api.sovet-consult.tk/', 'http://api.sovet-consult.tk'],
   methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
   preflightContinue: true,
   optionsSuccessStatus: 204,
